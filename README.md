@@ -12,7 +12,7 @@ Certifique-se de ter o Tesseract OCR instalado e configurado corretamente no seu
 # Instalação das Dependências
 Instale as dependências necessárias usando pip:
 
-```
+```sh
 pip install opencv-python pytesseract
 ```
 Certifique-se de que o Tesseract OCR esteja instalado no seu sistema. Você pode baixá-lo e instalá-lo a partir do site oficial do Tesseract OCR. [Link](https://github.com/UB-Mannheim/tesseract/wiki)
@@ -20,25 +20,25 @@ Certifique-se de que o Tesseract OCR esteja instalado no seu sistema. Você pode
 # Uso
 1. Clone este repositório:
 
-```
+```sh
 git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 
 2. Navegue até o diretório do projeto:
 
-```
+```sh
 cd seu-repositorio
 ```
 
 3. Configure o caminho para a pasta de imagens no arquivo ocr_process.py:
 
-```
+```sh
 pasta_imagens = r"C:\s16"
 ```
 
 4. Execute o script Python:
 
-```
+```sh
 python ocr.py
 ```
 Isso irá processar todas as imagens na pasta `C:\s16`, extrair o texto de uma região específica (definida no código) de cada imagem usando OCR e salvar os resultados em um arquivo `resultado.csv` dentro da mesma pasta.
